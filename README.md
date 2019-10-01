@@ -11,44 +11,44 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 ## Webdriver  Interface Basic Methods
 
 
-1. get() // Navigate web application URL without browser history.
+1. get() - Navigate web application URL without browser history.
 
-2. navigate().to // Navigate web application URl with browser history.
+2. navigate().to - Navigate web application URl with browser history.
 
-3. navigate().back() // Back to previous we page
+3. navigate().back() - Back to previous we page
 
-4. navigate().forward() // It's comes to the actual page URL
+4. navigate().forward() - It's comes to the actual page URL
 
-5. navigate().refresh() // It's refresh the page  
+5. navigate().refresh() - It's refresh the page  
 
-6. getpagetitle() // capture the current page title 
+6. getpagetitle() - capture the current page title 
 
-7. getcurrenturl() // capture the current page url
+7. getcurrenturl() - capture the current page url
 
-8. manage().window().setsize() // set the window size
+8. manage().window().setsize() - set the window size
 
-9. manage().window().maximize() // set the widow size maximum
+9. manage().window().maximize() - set the window size maximum
 
-10. manage().window().deleteallcokkies() // delete all cokkies
+10. manage().window().deleteallcokkies() - delete all cokkies
 
-11. findelement() // identify the web elements in UI based of 8 locators
+11. findelement() - identify the web elements in UI based of 8 locators
 
-12. findelements() //identify  multiple similar elements in UI.
+12. findelements() - identify  multiple similar elements in UI.
 
-13. close() // close only one window
+13. close() - close only one window
 
-14. quiet() //close multiple windows
+14. quiet() - close multiple windows
 
 ## Webelement Basic Operations
 
-1. sendkeys()
+1. sendkeys() - It is used to pass or enter data into edit box
 
-2. clear()
-3. gettext()
+2. clear() - It is used reset existing value from edit box
+3. gettext() - It is used to capture visible element from the weblement
 
-4. getattribute()
-5. gestcssvalue()
-5. getlocation()
-6. isenabled()
-7. isselected()
-8. click()
+4. getattribute() - It is used to capture backend attribute value form the weblement.
+5. gestcssvalue() - It is used to capture color or background color
+5. getlocation() - It is used to capture location of object in browser
+6. isenabled() - It is used to check whether object active in UI 
+7. isselected() - It is used to check whether checkbox or radiobuttion is already selected or not.
+8. click() - It is used to perform leftclick operations on checkbox, radio button and links.
