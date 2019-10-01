@@ -6,12 +6,11 @@
 
 Selenium Webdriver is a collections of core java classes and interfaces. It is just collection of .jar files which does not contain UI, record and playback feature. It supports multiple browsers like Firefox, IE, Chrome, Safari and Opera. It Supports multiple languages like java, C#, Python, Pearl and Php. It supports multiple OS windows,Linux, MacOS, Android and IOS.  
 
-```markdown
-Syntax highlighted code block
+
 
 # Webdriver  Interface Basic Methods
 
-1.get()  - Navigate web application URL without browser history.
+1.get() // Navigate web application URL without browser history.
 2.navigate().to // Navigate web application URl with browser history.
 3.navigate().back() // Back to previous we page
 4.navigate().forward() // It's comes to the actual page URL
