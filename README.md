@@ -52,3 +52,15 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 6. isenabled() - It is used to check whether object active in UI 
 7. isselected() - It is used to check whether checkbox or radiobuttion is already selected or not.
 8. click() - It is used to perform leftclick operations on checkbox, radio button and links.
+
+## Mouse Movements
+1. movetoelements()
+2. contextclick()
+3. sendkeys()
+4. doubleclick()
+5. drag & drop()
+6. clickhold()
+7. release()
+8. build()
+9. perform()
+
