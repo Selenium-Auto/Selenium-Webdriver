@@ -10,7 +10,7 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 
 ### Webdriver  Interface Basic Methods
 
-1.get() // Navigate web application URL without browser history.
+#####1.get() // Navigate web application URL without browser history.
 2.navigate().to // Navigate web application URl with browser history.
 3.navigate().back() // Back to previous we page
 4.navigate().forward() // It's comes to the actual page URL
