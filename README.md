@@ -40,3 +40,15 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 14. quiet() //close multiple windows
 
 ## Webelement Basic Operations
+
+1. sendkeys()
+
+2. clear()
+3. gettext()
+
+4. getattribute()
+5. gestcssvalue()
+5. getlocation()
+6. isenabled()
+7. isselected()
+8. click()
