@@ -10,6 +10,22 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 Syntax highlighted code block
 
 # Webdriver  Interface Basic Methods
+
+1.get()
+2.navigate().to
+3.navigate().back()
+4.navigate().forward()
+5.navigate().refresh()
+6.getpagetitle()
+7.getcurrenturl()
+8.manage().window().setsize()
+9.manage().window().maximize()
+10.manage().window().deleteallcokkies()
+11.findelement()
+12.findelements()
+13.close()
+14.quiet()
+
 ## Webelement Basic Operations
 ### Header 3
 
