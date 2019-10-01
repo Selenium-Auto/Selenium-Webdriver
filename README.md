@@ -4,9 +4,9 @@ You can use the [editor on GitHub](https://github.com/Selenium-Auto/Selenium-Web
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Selenium Webdriver is a collections of core java classes and interfaces. It is just collection of .jar files which does not contain UI, record and playback feature. It supports multiple browsers like Firefox, IE, Chrome, Safari and Opera. It Supports multiple languages like java, C#, Python, Pearl and Php. It supports multiple OS windows,Linux, MacOS, Android and IOS.  
 
 ```markdown
 Syntax highlighted code block
