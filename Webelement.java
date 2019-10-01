@@ -4,30 +4,56 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Amazon {
+public class Webele {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriver wb=new FirefoxDriver();
 		
-		wb.navigate().to("https://amazon.com");
+		WebDriver driver=new FirefoxDriver();
 		
-		wb.findElement(By.id("twotabsearchtextbox")).sendKeys("mobile");
-		wb.findElement(By.id("twotabsearchtextbox")).clear();;
-		wb.findElement(By.id("twotabsearchtextbox")).sendKeys("pen");
-		wb.findElement(By.id("twotabsearchtextbox")).submit();
+		driver.navigate().to("https://www.amazon.in/");
 		
-		WebElement w=wb.findElement(By.id("twotabsearchtextbox"));
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Iphone");
 		
-		Point po=w.getLocation();
-		System.out.println("x: "+po.x + "y: "+po.y);
+		//driver.findElement(By.id("twotabsearchtextbox")).clear();
 		
-		String att=w.getAttribute("id");
-		Thread.sleep(10000);
+	    driver.findElement(By.id("twotabsearchtextbox")).submit();
+	    
+	    WebElement web=driver.findElement(By.id("twotabsearchtextbox"));
+	    
+	    String text=web.getText();
+	    System.out.println(text);
+	    
+	    String text1=web.getAttribute("id");
+	    System.out.println(text1);
+	    
+	    String text2=web.getCssValue("id");
+	    System.out.println(text2);
+	    
+	    
+	   
+	   // driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']")).click();
+	
+	   
+	    Point po=web.getLocation();
+	    System.out.println("X: "+ po.x);
+	    System.out.println("Y: "+ po.y);
+	    
+	    boolean status=web.isEnabled();
+	    System.out.println(status);
+	    
+	    boolean st=web.isSelected();
+	    System.out.println(st);
+	    
+		
+		Thread.sleep(5000);
+		
+		driver.close();
 		
 		
-		wb.quit();
+		
+		
 	}
 
 }
