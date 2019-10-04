@@ -44,23 +44,37 @@ Selenium Webdriver is a collections of core java classes and interfaces. It is j
 1. sendkeys() - It is used to pass or enter data into edit box
 
 2. clear() - It is used reset existing value from edit box
+
 3. gettext() - It is used to capture visible element from the weblement
 
 4. getattribute() - It is used to capture backend attribute value form the weblement.
+
 5. gestcssvalue() - It is used to capture color or background color
-5. getlocation() - It is used to capture location of object in browser
-6. isenabled() - It is used to check whether object active in UI 
-7. isselected() - It is used to check whether checkbox or radiobuttion is already selected or not.
-8. click() - It is used to perform leftclick operations on checkbox, radio button and links.
+
+6. getlocation() - It is used to capture location of object in browser
+
+7. isenabled() - It is used to check whether object active in UI 
+
+8. isselected() - It is used to check whether checkbox or radiobuttion is already selected or not.
+
+9. click() - It is used to perform leftclick operations on checkbox, radio button and links.
 
 ## Mouse Movements
 1. movetoelements()
+
 2. contextclick()
+
 3. sendkeys()
+
 4. doubleclick()
+
 5. drag & drop()
+
 6. clickhold()
+
 7. release()
+
 8. build()
+
 9. perform()
 
