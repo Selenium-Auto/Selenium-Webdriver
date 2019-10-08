@@ -8,8 +8,6 @@
 
 
 
-![image](https://user-images.githubusercontent.com/34743233/66368705-ea8dec00-e9b6-11e9-8cc6-cdb6877acacd.png)
-
 
 
 ## Introduction
