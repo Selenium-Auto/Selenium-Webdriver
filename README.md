@@ -7,6 +7,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4741cfc49429440f9f9b17990cdcbbf5)](https://www.codacy.com/manual/Java-Squad/Selenium-Webdriver?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Selenium-Auto/Selenium-Webdriver&amp;utm_campaign=Badge_Grade)
 
 
+
+![image](https://user-images.githubusercontent.com/34743233/66368705-ea8dec00-e9b6-11e9-8cc6-cdb6877acacd.png)
+
+
+
 ## Introduction
 
 Selenium Webdriver is a collections of core java classes and interfaces. It is just collection of .jar files which does not contain UI, record and playback feature. It supports multiple browsers like Firefox, IE, Chrome, Safari and Opera. It Supports multiple languages like java, C#, Python, Pearl and Php. It supports multiple OS windows,Linux, MacOS, Android and IOS.  
